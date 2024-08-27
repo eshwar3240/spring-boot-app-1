@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-  ../newapp/kustomization.yaml
+  -../newapp/eshwar.yaml
  
 commonLabels:
   app: spring-boot-app
