@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-  -../spring-boot-app/newapp/Kustomization.yaml
+  - ../newapp/kustomization.yaml
  
 commonLabels:
   app: spring-boot-app
